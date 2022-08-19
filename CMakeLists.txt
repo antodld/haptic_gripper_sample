@@ -14,6 +14,8 @@ if(NOT TARGET mc_rtc::mc_control)
   find_package(mc_rtc REQUIRED)
 endif()
 
+find_package(roscpp)
+
 add_subdirectory(src)
 
 set(AROBASE "@")

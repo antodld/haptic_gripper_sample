@@ -1,1 +1,4 @@
 ---
+gripper: "l_gripper"
+sub_topic: "avatar/gripper/left"
+pub_topic: "avatar/gripper/force_feedback"
